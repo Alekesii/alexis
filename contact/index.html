@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width,initial-scale=1" name="viewport"/>
+        <meta content="#101010" name="theme-color"/>
+        <title>
+            Contact · Alexis
+        </title>
+        <meta content="Un projet, une question ou une opportunité : écrivez-moi." name="description"/>
+        <link href="../style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <a aria-label="Alexis, accueil" class="brand" href="../index.html">
+                AE
+                <span>
+                    Alexis.
+                </span>
+            </a>
+            <nav aria-label="Navigation principale">
+                <a href="../projets/index.html">
+                    Projets
+                </a>
+                <a href="../experience/index.html">
+                    Expérience
+                </a>
+                <a href="../veille/index.html">
+                    Veille
+                </a>
+                <a href="../formation/index.html">
+                    Formation
+                </a>
+                <a href="../competences/index.html">
+                    Compétences
+                </a>
+            </nav>
+            <a aria-current="page" class="active" href="index.html">
+                Contact
+                <span>
+                    ↗
+                </span>
+            </a>
+            <button aria-expanded="false" aria-label="Ouvrir le menu" class="menu">
+                ☰
+            </button>
+        </header>
+        <main class="inner-page">
+            <section class="page-heading">
+                <a class="back" href="../index.html">
+                    Accueil / Contact
+                </a>
+                <div class="eyebrow">
+                    06 / ÉCHANGEONS
+                </div>
+                <h1>
+                    Une idée ?
+                    <br/>
+                    <em>
+                        Parlons-en.
+                    </em>
+                </h1>
+                <p>
+                    Un projet, une question ou une opportunité : écrivez-moi.
+                </p>
+            </section>
+            <section class="page-content contact-grid">
+                <div class="contact-info">
+                    <h2>
+                        Gardons
+                        <br/>
+                        <em>
+                            le contact.
+                        </em>
+                    </h2>
+                    <p>
+                        Vous pouvez me contacter directement par e-mail.
+                    </p>
+                    <a class="email-address" href="mailto:alexis.jeanney@outlook.fr">
+                        alexis.jeanney@outlook.fr
+                    </a>
+                </div>
+                <form id="contact-form">
+                    <div class="form-row">
+                        <label>
+                            Prénom
+                            <input autocomplete="given-name" maxlength="100" name="firstname" placeholder="Votre prénom" required=""/>
+                        </label>
+                        <label>
+                            Nom
+                            <input autocomplete="family-name" maxlength="100" name="lastname" placeholder="Votre nom" required=""/>
+                        </label>
+                    </div>
+                    <label>
+                        E-mail
+                        <input autocomplete="email" name="email" placeholder="vous@exemple.fr" required="" type="email"/>
+                    </label>
+                    <label>
+                        Message
+                        <textarea maxlength="5000" name="message" placeholder="Parlez-moi de votre projet…" required="" rows="6"></textarea>
+                    </label>
+                    <p class="form-note">
+                        Ce formulaire prépare un e-mail dans votre messagerie. Vous pourrez le vérifier avant de l’envoyer.
+                    </p>
+                    <button class="button" type="submit">
+                        Préparer mon e-mail
+                    </button>
+                    <p id="form-status" role="status">
+                    </p>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <a class="brand" href="../index.html">
+                AE
+            </a>
+            <p>
+                Alexis · Portfolio
+            </p>
+            <a href="../index.html">
+                Accueil
+            </a>
+            <a href="../mentions-legales.html">
+                Mentions légales
+            </a>
+        </footer>
+        <script src="../script.js">
+        </script>
+    </body>
+</html>
